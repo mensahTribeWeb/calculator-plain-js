@@ -1,6 +1,10 @@
-# Simple Calculator
+# Nokore Calculator
 
 A basic calculator built with HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations including addition, subtraction, multiplication, and division. It features a clean and responsive design that is easy to use on any device.
+
+![image](https://github.com/mensahTribeWeb/calculator-plain-js/assets/103342287/4c4409d2-a845-4638-b75f-7cc69cba2f75)
+
+
 
 ## Features
 
