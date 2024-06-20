@@ -1,0 +1,221 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styling for the body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Calculator styling */
+.calculator {
+  display: flex;
+  background-color: #888; /* Gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main section styling (display and buttons) */
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+/* Display section styling */
+.display {
+  margin-bottom: 20px;
+}
+
+.display-screen {
+  width: 100%;
+  height: 80px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); /* Glow effect */
+  background-color: #fafafa;
+}
+
+/* Buttons section styling */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+button {
+  height: 60px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.equal-sign {
+  width: 100%;
+}
+
+button:hover {
+  background-color: #d4d4d4;
+}
+
+button:active {
+  background-color: #c4c4c4;
+}
+
+.operator {
+  background-color: #ff9500;
+  color: white;
+}
+
+.operator:hover {
+  background-color: #e68a00;
+}
+
+.operator:active {
+  background-color: #cc7a00;
+}
+
+.all-clear {
+  background-color: #ff3b30;
+  color: white;
+}
+
+.all-clear:hover {
+  background-color: #e63228;
+}
+
+.all-clear:active {
+  background-color: #cc2b21;
+}
+
+.equal-sign {
+  background-color: #4cd964;
+  color: white;
+  grid-column: span 3;
+}
+
+.equal-sign:hover {
+  background-color: #43c557;
+}
+
+.equal-sign:active {
+  background-color: #3aad4c;
+}
+
+/* History section styling */
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.history h2 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.history hr {
+  margin: 10px 0;
+}
+
+.history-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  text-align: center;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#history {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#history li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+#history li:last-child {
+  border-bottom: none;
+}
+
+.clear-history {
+  background-color: #007aff;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear-history:hover {
+  background-color: #0066cc;
+}
+
+.clear-history:active {
+  background-color: #005bb5;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 2rem;
+}
