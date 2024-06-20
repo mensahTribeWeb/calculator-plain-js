@@ -3,21 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <description" content="A basic calculator built with HTML, CSS, and
-    JavaScript. This calculator supports basic arithmetic operations including
-    addition, subtraction, multiplication, and division. It features a clean and
-    responsive design that is easy to use on any device." />
-    <author>Nick Nokore</author>
+    <meta
+      name="description"
+      content="A basic calculator built with HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations including addition, subtraction, multiplication, and division. It features a clean and responsive design that is easy to use on any device."
+    />
+    <meta name="author" content="Nick Nokore" />
     <link rel="stylesheet" href="css/index.css" />
     <title>Simple Calculator</title>
   </head>
   <body>
+    <h1>Nokore.dev Calculator</h1>
     <div class="container">
       <div class="calculator">
-        <div class="display">
-          <input type="text" id="display" class="display-screen" disabled />
-        </div>
+        <section class="main">
+          <div class="display">
+            <input
+              title="display"
+              type="text"
+              id="display"
+              class="display-screen"
+              disabled
+            />
+          </div>
+          <!-- button section -->
+          <div class="buttons">
+            <button type="button" class="all-clear" value="all-clear">C</button>
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" value="3">3</button>
+            <button type="button" value="4">4</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+            <button type="button" value=".">.</button>
+            <button type="button" class="equal-sign" value="=">=</button>
+          </div>
+        </section>
+
+        <!-- History Section -->
+        <section class="history">
+          <h2>History</h2>
+          <hr />
+          <div class="history-container">
+            <ul id="history"></ul>
+          </div>
+          <button class="clear-history">Clear</button>
+        </section>
       </div>
     </div>
+
+    <footer>
+      <p>&copy; 2024 Nick Nokore. All rights reserved.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
