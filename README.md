@@ -1,4 +1,4 @@
-# Nokore Calculator
+# Zoe's Calculator
 
 A basic calculator built with HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations including addition, subtraction, multiplication, and division. It features a clean and responsive design that is easy to use on any device.
 
