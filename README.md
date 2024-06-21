@@ -38,8 +38,8 @@ Open the `index.html` file in your web browser to start using the calculator.
 ## Structure
 
 - `index.html` - The main HTML file containing the structure of the calculator.
-- `styles.css` - The CSS file for styling the calculator.
-- `script.js` - The JavaScript file containing the logic for the calculator operations.
+- `index.css` - The CSS file for styling the calculator.
+- `index.js` - The JavaScript file containing the logic for the calculator operations.
 
 ## Contributing
 
